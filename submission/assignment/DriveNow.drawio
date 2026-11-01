@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="22">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="23">
   <diagram id="task-7-1" name="7.1">
     <mxGraphModel dx="2590" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -4069,7 +4069,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="j4Q8wtPt0XpqFIkN41vn" name="Page-22">
+  <diagram id="j4Q8wtPt0XpqFIkN41vn" name="3-Questions-Assumptions">
     <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -4097,6 +4097,17 @@
         </mxCell>
         <mxCell id="ygOOS0vqk_5Iej4t7KrJ-8" value="&lt;div style=&quot;font-family:Arial;font-size:17px;line-height:1.35&quot;&gt;&lt;p style=&quot;margin:0 0 12px 0&quot;&gt;&lt;b&gt;1. Potential contradiction / ambiguity&lt;/b&gt;&lt;br&gt;&lt;b&gt;Section 7.7 — Customers:&lt;/b&gt; Authorized corporate drivers are described as being known only through their company.&lt;br&gt;&lt;b&gt;Section 8 — Stakeholder Interview Notes (Rana Adel):&lt;/b&gt; Some corporate drivers may also be individual customers.&lt;br&gt;&lt;i&gt;Design note:&lt;/i&gt; This is a possible ambiguity rather than a definite conflict: the same person may have an individual customer record while also having a separate company-specific authorized-driver record.&lt;/p&gt;&lt;p style=&quot;margin:0 0 12px 0&quot;&gt;&lt;b&gt;2. Potential contradiction / ambiguity&lt;/b&gt;&lt;br&gt;&lt;b&gt;Section 7.16 — Payments:&lt;/b&gt; A rental may have several payments, such as a deposit, final payment, or later charges.&lt;br&gt;&lt;b&gt;Section 7.16 — Finance Note:&lt;/b&gt; Corporate clients usually do not pay per rental; they receive one invoice at the end of each month.&lt;br&gt;&lt;i&gt;Design note:&lt;/i&gt; These statements describe different payment flows, but the SRS does not fully explain how corporate invoice payments are linked to the rentals included in the invoice.&lt;/p&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; No definite contradiction has been confirmed; the two items above are potential ambiguities that should be clarified with the stakeholders.&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#AAB6C5;strokeWidth=1.3;fontColor=#222222;fontSize=17;align=left;verticalAlign=top;spacing=16;spacingTop=14;spacingLeft=18;spacingRight=16;" vertex="1" parent="1">
           <mxGeometry x="50" y="2053" width="1500" height="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J72hS55Q1WykymRu7l03" name="4-Business-Rules,">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qKD_X6-WqCNPd9tqQ9pW-1" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;p&gt;&lt;span&gt;#&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;&lt;span&gt;SRS &lt;/span&gt;&lt;span&gt;section&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;&lt;span&gt;Business &lt;/span&gt;&lt;span&gt;rule&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;&lt;span&gt;Why &lt;/span&gt;&lt;span&gt;constraints &lt;/span&gt;&lt;span&gt;are &lt;/span&gt;&lt;span&gt;not &lt;/span&gt;&lt;span&gt;enough&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;&lt;span&gt;How &lt;/span&gt;&lt;span&gt;to &lt;/span&gt;&lt;span&gt;enforce &lt;/span&gt;&lt;span&gt;it&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;span&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;span&gt;Vehicle &lt;/span&gt;&lt;span&gt;Transfer &lt;/span&gt;&lt;span&gt;(7.3)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;span&gt;A &lt;/span&gt;&lt;span&gt;vehicle &lt;/span&gt;&lt;span&gt;can &lt;/span&gt;&lt;span&gt;only &lt;/span&gt;&lt;span&gt;be &lt;/span&gt;&lt;span&gt;transferred &lt;/span&gt;&lt;span&gt;from &lt;/span&gt;&lt;span&gt;its &lt;/span&gt;&lt;span&gt;current &lt;/span&gt;&lt;span&gt;branch.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;span&gt;Requires &lt;/span&gt;&lt;span&gt;checking &lt;/span&gt;&lt;span&gt;the &lt;/span&gt;&lt;span&gt;vehicle&#39;s &lt;/span&gt;&lt;span&gt;current &lt;/span&gt;&lt;span&gt;branch &lt;/span&gt;&lt;span&gt;against &lt;/span&gt;&lt;span&gt;the &lt;/span&gt;&lt;span&gt;requested &lt;/span&gt;&lt;span&gt;source &lt;/span&gt;&lt;span&gt;branch.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;span&gt;Stored &lt;/span&gt;&lt;span&gt;procedure &lt;/span&gt;&lt;span&gt;with &lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;transaction &lt;/span&gt;&lt;span&gt;to &lt;/span&gt;&lt;span&gt;validate &lt;/span&gt;&lt;span&gt;and &lt;/span&gt;&lt;span&gt;perform &lt;/span&gt;&lt;span&gt;the &lt;/span&gt;&lt;span&gt;transfer.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#201d1d;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="560" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
